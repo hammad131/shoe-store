@@ -1,0 +1,90 @@
+.container2{
+    width: 90%;
+	max-width: 120rem;
+	height: 100%;
+	margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+.section-heading{
+	text-align: center;
+	margin-bottom: 10rem;
+}
+
+.section-heading h1{
+	font-size: 3.5rem;
+	color: rgba(255, 255, 255, .3);
+	text-transform: uppercase;
+	font-weight: 300;
+	position: relative;
+	margin-bottom: 1rem;
+}
+.section-heading h1::before,
+.section-heading h1::after{
+	content: '';
+	position: absolute;
+	bottom: -.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(255, 255, 255, 0.75);
+}
+.section-heading h1::before{
+	width: 10rem;
+	height: 3px;
+	border-radius: .8rem;
+}
+.section-heading h1::after{
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 100%;
+	bottom: -1rem;
+
+}
+
+.section-heading h6{
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+
+
+.contact{
+	background-color: rgb(255, 136, 0.5);
+
+}
+form{
+	width: 70%;
+    margin: 0 auto;
+    margin-top: -120px;
+}
+form-label{
+	font-size: 1.5rem;
+}
+
+input,
+select,
+textarea{
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 5px;
+	border: none;
+    outline-color: #fd57bf;
+    
+}
+
+input[type="submit"]{
+	width: initial;
+    background-color: rgb(255, 136, 0.5);
+    border: 3px solid #000000;
+	color: #000000;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	transition: background-color 650ms;
+}
+
+input[type="submit"]:hover{
+	color:rgb(255, 136, 0.5)  !important;
+    background: #000000;
+    border-color: rgb(255, 136, 0.5) !important;
+    transition: all 0.4s ease 0s;
+}
