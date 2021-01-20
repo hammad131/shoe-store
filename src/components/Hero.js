@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
-import nike1 from './5.png';
+import { Link } from 'react-router-dom'
+import log1 from './log4.png'
 
 function Hero() {
     return (
@@ -13,10 +14,11 @@ function Hero() {
                         When words becomes unclear, I shall focus with photographs.<br />When
                         Images becomes inadequate, I shall be content with silence.
                     </p>
-                    <button className="btn">Explore Now</button>
+                    <button className="btn"><Link className='btn2' to='/products'>Explore Now</Link></button>
                 </div>
                 <div className="col-2">
-                    <img src= {nike1} alt="" />
+                    <img src= {log1} alt="" />
+                    
                 </div>
             </div>
             

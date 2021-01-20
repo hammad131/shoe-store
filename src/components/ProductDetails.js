@@ -44,7 +44,7 @@ function ProductDetails() {
 			            <p>Shadow your real allegiance to New York's Pirate radio with this cool cap featuring the Graphic Know Wave logo.</p>
 			
                         <div className="button">
-                            <button>$115</button><button className="cart-btn"><i className="cart-icon ion-bag"></i>ADD TO CART</button>
+                            <button>$115</button><button className="cart-btn"><i className="fa fa-shopping-bag"></i>ADD TO CART</button>
                         </div>
 			
 		            </div>

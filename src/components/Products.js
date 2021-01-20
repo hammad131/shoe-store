@@ -9,7 +9,7 @@ function Products() {
 
     return (
         <div>
-            Products
+            
             <Outlet />
         </div>
     )
